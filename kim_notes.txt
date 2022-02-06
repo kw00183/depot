@@ -8,6 +8,6 @@ git config --global user.email ""
 
 http://localhost:3000/
 
-bin/rails s
+bin/rails server
 
 fix problem in chapter 10 cart css to make it td.price

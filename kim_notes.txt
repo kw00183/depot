@@ -1,0 +1,13 @@
+bundle install
+
+Experienced error on server run, so reinstalled webpacker:
+bundle exec rake webpacker:install
+
+git config --global user.name ""
+git config --global user.email ""
+
+http://localhost:3000/
+
+bin/rails s
+
+fix problem in chapter 10 cart css to make it td.price

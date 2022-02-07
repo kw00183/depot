@@ -36,3 +36,5 @@ fix problem in chapter 10 cart css to make it td.price
 ​ 	         order_id = 1
 ​ 	​sqlite>​​ ​​.quit​
 ------------
+
+bin/rails webpacker:compile

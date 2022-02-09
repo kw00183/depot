@@ -12,14 +12,14 @@ class OrdersTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Orders"
   end
 
-  test "destroying a Order" do
-    visit orders_url
-    page.accept_confirm do
-      click_on "Destroy", match: :first
-    end
+#  test "destroying a Order" do
+#    visit orders_url
+#    page.accept_confirm do
+#      click_on "Destroy", match: :first
+#    end
 
-    assert_text "Order was successfully destroyed"
-  end
+#    assert_text "Order was successfully destroyed"
+#  end
 
   test "check routing number" do
 
